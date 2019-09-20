@@ -15,6 +15,13 @@
 		0EFCF14723321FF100506DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFCF14523321FF100506DC3 /* LaunchScreen.storyboard */; };
 		0EFCF15223321FF100506DC3 /* NanoChallange2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF15123321FF100506DC3 /* NanoChallange2Tests.swift */; };
 		0EFCF15D23321FF100506DC3 /* NanoChallange2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF15C23321FF100506DC3 /* NanoChallange2UITests.swift */; };
+		0EFCF17623337BA000506DC3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF17523337BA000506DC3 /* Utilities.swift */; };
+		0EFCF17823337BBB00506DC3 /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF17723337BBB00506DC3 /* Geotification.swift */; };
+		0EFCF17C2333962600506DC3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFCF17B2333962600506DC3 /* CloudKit.framework */; };
+		0EFCF17E2333B3B200506DC3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF17D2333B3B200506DC3 /* UserCell.swift */; };
+		0EFCF1802333D78F00506DC3 /* RoarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF17F2333D78F00506DC3 /* RoarViewController.swift */; };
+		0EFCF1822333EA2500506DC3 /* FaceIdRecognizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF1812333EA2500506DC3 /* FaceIdRecognizedViewController.swift */; };
+		0EFCF1842334675500506DC3 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCF1832334675500506DC3 /* Variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,14 @@
 		0EFCF15823321FF100506DC3 /* NanoChallange2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChallange2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFCF15C23321FF100506DC3 /* NanoChallange2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallange2UITests.swift; sourceTree = "<group>"; };
 		0EFCF15E23321FF100506DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFCF17523337BA000506DC3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0EFCF17723337BBB00506DC3 /* Geotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
+		0EFCF1792333962100506DC3 /* NanoChallange2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NanoChallange2.entitlements; sourceTree = "<group>"; };
+		0EFCF17B2333962600506DC3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		0EFCF17D2333B3B200506DC3 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		0EFCF17F2333D78F00506DC3 /* RoarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoarViewController.swift; sourceTree = "<group>"; };
+		0EFCF1812333EA2500506DC3 /* FaceIdRecognizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIdRecognizedViewController.swift; sourceTree = "<group>"; };
+		0EFCF1832334675500506DC3 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFCF17C2333962600506DC3 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,7 @@
 				0EFCF15023321FF100506DC3 /* NanoChallange2Tests */,
 				0EFCF15B23321FF100506DC3 /* NanoChallange2UITests */,
 				0EFCF13723321FF000506DC3 /* Products */,
+				0EFCF17A2333962600506DC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,7 @@
 		0EFCF13823321FF000506DC3 /* NanoChallange2 */ = {
 			isa = PBXGroup;
 			children = (
+				0EFCF1792333962100506DC3 /* NanoChallange2.entitlements */,
 				0EFCF13923321FF000506DC3 /* AppDelegate.swift */,
 				0EFCF13B23321FF000506DC3 /* ViewController.swift */,
 				0EFCF13D23321FF000506DC3 /* Main.storyboard */,
@@ -106,6 +124,12 @@
 				0EFCF14523321FF100506DC3 /* LaunchScreen.storyboard */,
 				0EFCF14823321FF100506DC3 /* Info.plist */,
 				0EFCF14023321FF000506DC3 /* NanoChallange2.xcdatamodeld */,
+				0EFCF17523337BA000506DC3 /* Utilities.swift */,
+				0EFCF17723337BBB00506DC3 /* Geotification.swift */,
+				0EFCF17D2333B3B200506DC3 /* UserCell.swift */,
+				0EFCF17F2333D78F00506DC3 /* RoarViewController.swift */,
+				0EFCF1812333EA2500506DC3 /* FaceIdRecognizedViewController.swift */,
+				0EFCF1832334675500506DC3 /* Variables.swift */,
 			);
 			path = NanoChallange2;
 			sourceTree = "<group>";
@@ -126,6 +150,14 @@
 				0EFCF15E23321FF100506DC3 /* Info.plist */,
 			);
 			path = NanoChallange2UITests;
+			sourceTree = "<group>";
+		};
+		0EFCF17A2333962600506DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFCF17B2333962600506DC3 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +228,14 @@
 				TargetAttributes = {
 					0EFCF13523321FF000506DC3 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					0EFCF14C23321FF100506DC3 = {
 						CreatedOnToolsVersion = 10.3;
@@ -261,6 +301,12 @@
 			files = (
 				0EFCF13C23321FF000506DC3 /* ViewController.swift in Sources */,
 				0EFCF14223321FF000506DC3 /* NanoChallange2.xcdatamodeld in Sources */,
+				0EFCF17E2333B3B200506DC3 /* UserCell.swift in Sources */,
+				0EFCF1842334675500506DC3 /* Variables.swift in Sources */,
+				0EFCF1802333D78F00506DC3 /* RoarViewController.swift in Sources */,
+				0EFCF1822333EA2500506DC3 /* FaceIdRecognizedViewController.swift in Sources */,
+				0EFCF17623337BA000506DC3 /* Utilities.swift in Sources */,
+				0EFCF17823337BBB00506DC3 /* Geotification.swift in Sources */,
 				0EFCF13A23321FF000506DC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NanoChallange2/NanoChallange2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PQW8N3MG;
 				INFOPLIST_FILE = NanoChallange2/Info.plist;
@@ -454,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NanoChallange2/NanoChallange2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PQW8N3MG;
 				INFOPLIST_FILE = NanoChallange2/Info.plist;
